@@ -1,0 +1,28 @@
+.quiz__nav {
+  display: flex;
+  padding: 10px;
+  border-radius: 7px;
+  background-color: bisque;
+  color: antiquewhite;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1px;
+  border: 1px outset palevioletred;
+  background-image: url(../image/pawel-czerwinski-oykbZuvajO0-unsplash.jpg);
+}
+
+.footer__icon {
+  color: crimson;
+}
+
+.footer__icon:hover {
+  color: brown;
+}
+
+footer a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

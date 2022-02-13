@@ -1,0 +1,36 @@
+.header__card {
+  /* background-image: url(/image/allison-louise-xABgmlX4ABE-unsplash.jpg); */
+  border: 1px solid palevioletred;
+  background-image: url(../image/hasan-almasi-o_JU7aQCHPQ-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.question__card {
+  display: grid;
+  background-color: bisque;
+  border-radius: 7px;
+  box-shadow: 6px 6px 9px rosybrown;
+  padding: 20px;
+  margin: 30px 20px;
+  position: relative;
+  border-left: 1px solid palevioletred;
+  border-top: 1px solid palevioletred;
+  border-right: 1px solid palevioletred;
+}
+
+.question__card__title-bookmark {
+  position: absolute;
+  top: -16px;
+  right: 20px;
+  width: 45px;
+  height: 45px;
+  color: crimson;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.answer__card {
+  background-color: rgb(255, 210, 195);
+}
