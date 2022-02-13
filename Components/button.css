@@ -8,6 +8,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  cursor: pointer;
+  color: midnightblue;
+  font-weight: 400;
 }
 
 .question__card__answer__button:hover {
@@ -22,6 +25,9 @@
   border: 2px solid azure;
   font-size: 1.2rem;
   flex-wrap: wrap;
+  cursor: pointer;
+  color: midnightblue;
+  font-weight: 400;
 }
 .question__card__answer__button--hide:hover {
   background-color: blanchedalmond;
@@ -34,21 +40,27 @@
   border-radius: 10px;
   border: 2px solid azure;
   font-size: 1.2rem;
+  cursor: pointer;
+  color: midnightblue;
+  font-weight: 400;
 }
 
 .profile__logout__button:hover {
   background-color: blanchedalmond;
 }
 
-.submit__button {
+.form__submit__button {
   margin: 20px 40px;
   padding: 10px;
   background-color: lightpink;
   border-radius: 10px;
   border: 2px solid azure;
   font-size: 1.2rem;
+  cursor: pointer;
+  color: midnightblue;
+  font-weight: 400;
 }
 
-.submit__button:hover {
+.form__submit__button:hover {
   background-color: blanchedalmond;
 }

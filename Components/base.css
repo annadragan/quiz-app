@@ -84,7 +84,7 @@ a:hover {
 .profile__photo {
   border-radius: 50%;
   border: 1px outset crimson;
-  margin: 20px 15px;
+  margin: 30px 10px 20px 30px;
 }
 
 .profile__name {
