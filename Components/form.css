@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
+
+textarea {
+  background-color: antiquewhite;
+  padding: 10px;
+  font-size: 1.2rem;
+  box-shadow: 6px 6px 9px rosybrown;
+  border-radius: 7px;
+  border-color: coral;
+}
+
+::placeholder {
+  color: crimson;
+  font-size: 1.2rem;
+  font-family: "Dancing Script", cursive;
+}
+
+input {
+  border-color: coral;
+  padding: 10px;
+  border: 1px outset crimson;
+  background-color: antiquewhite;
+  box-shadow: 6px 6px 9px rosybrown;
+  border-radius: 7px;
+  display: block;
+  margin: 0 auto;
+  width: 27%;
+}

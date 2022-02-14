@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Dancing Script", cursive;
+  color: midnightblue;
+  background-color: beige;
+  box-shadow: 6px 6px 9px rosybrown;
+  border-radius: 7px;
+  display: grid;
+  grid-template-rows: 62px auto 48px;
+  height: 100vh;
+}
+
+main {
+  overflow-y: auto;
+}
+
+h1 {
+  color: crimson;
+  font-weight: 900;
+  letter-spacing: 0.05rem;
+  text-align: center;
+  background-color: bisque;
+  border-radius: 5px 20px 10px;
+  padding: 6px;
+}
+
+h2,
+h3 {
+  margin: 0 auto;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+p {
+  padding: 20px;
+  text-align: center;
+  justify-self: center;
+  font-size: 1.4rem;
+}
+
+label {
+  font-size: 1.2rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2px;
+  row-gap: 0.4rem;
+}
+
+li {
+  padding: 12px;
+  margin: 20px 0;
+  background-color: crimson;
+  color: whitesmoke;
+  border-radius: 30px/ 10px;
+  border: 2px outset palevioletred;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+a:hover {
+  color: blanchedalmond;
+}
+
+.profile__info {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+}
+
+.profile__photo {
+  border-radius: 50%;
+  border: 1px outset crimson;
+  margin: 30px 10px 20px 30px;
+}
+
+.profile__name {
+  float: right;
+}
+
+.profile__name:hover {
+  color: crimson;
+}
