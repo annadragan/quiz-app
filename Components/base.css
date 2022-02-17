@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Dancing Script", cursive;
+  font-family: 'Dancing Script', cursive;
   color: midnightblue;
   background-color: beige;
   box-shadow: 6px 6px 9px rosybrown;
@@ -94,3 +94,7 @@ a:hover {
 .profile__name:hover {
   color: crimson;
 }
+
+/* .active {
+  background-color: coral;
+} */
