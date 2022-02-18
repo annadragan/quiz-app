@@ -15,10 +15,6 @@ body {
   height: 100vh;
 }
 
-main {
-  overflow-y: auto;
-}
-
 h1 {
   color: crimson;
   font-weight: 900;
@@ -75,6 +71,10 @@ a:hover {
   color: blanchedalmond;
 }
 
+.scrolling {
+  overflow-y: auto;
+}
+
 .profile__info {
   display: grid;
   grid-auto-flow: column;
@@ -94,7 +94,3 @@ a:hover {
 .profile__name:hover {
   color: crimson;
 }
-
-/* .active {
-  background-color: coral;
-} */

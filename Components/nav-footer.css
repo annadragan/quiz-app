@@ -14,6 +14,8 @@
 
 .footer__icon {
   color: crimson;
+  border: none;
+  background-color: transparent;
 }
 
 .footer__icon:hover {
@@ -25,4 +27,9 @@ footer a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.quiz__nav header__card {
+  position: fixed;
+  top: 0;
 }
