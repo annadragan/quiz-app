@@ -74,11 +74,3 @@
 .form__submit__button:hover {
   background-color: azure;
 }
-
-.active {
-  color: rgb(21, 110, 21);
-}
-
-.hidden {
-  display: none;
-}

@@ -1,4 +1,6 @@
 // console.log('Hello word');
+
+/* Navigation*/
 const buttonHome = document.querySelector('[data-nav=home]');
 const buttonBookmarks = document.querySelector('[data-nav=bookmarks]');
 const buttonCreate = document.querySelector('[data-nav=create]');
@@ -56,6 +58,7 @@ buttonProfile.addEventListener('click', () => {
   buttonCreate.classList.remove('active');
   buttonProfile.classList.add('active');
 });
+
 /* bookmarks toggle */
 const bookmarks = document.querySelectorAll('[data-card="bookmark"]');
 bookmarks.forEach(bookmark => {
@@ -63,6 +66,7 @@ bookmarks.forEach(bookmark => {
     bookmark.classList.toggle('active');
   });
 });
+
 /* show- hide button */
 const cardSet = document.querySelectorAll('[data-js="card"]');
 cardSet.forEach(card => {
@@ -76,4 +80,27 @@ cardSet.forEach(card => {
     answerText.classList.toggle('hidden');
     showButton.classList.toggle('hidden');
   });
+});
+
+/* Calculation */
+
+const createQuestion = document.querySelector('[data-js="create-question"]');
+const leftCharactersQuestion = document.querySelector(
+  '[data-js="left-characters-question"]'
+);
+
+const createAnswer = document.querySelector('[data-js="create-answer"]');
+const leftCharactersAnswer = document.querySelector(
+  '[data-js="left-characters-answer"]'
+);
+
+createQuestion.addEventListener('input', () => {
+  const questionLength = createQuestion.value.length;
+  const maxQuestionLength = createQuestion.maxLength;
+  leftCharactersQuestion.innerText = maxQuestionLength - questionLength;
+});
+
+createAnswer.addEventListener('input', () => {
+  leftCharactersAnswer.innerText =
+    createAnswer.maxLength - createAnswer.value.length;
 });

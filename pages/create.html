@@ -9,6 +9,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/style.css" />
+    <script defer type="module" src="../index.js"></script>
     <title>Create</title>
   </head>
   <body>
@@ -18,9 +19,15 @@
     <main class="scrolling" data-page="create">
       <form action="" class="form__container">
         <div class="form">
-          <label for="question__form"></label>
+          <label for="question__form"
+            ><small class="create__headline--small"
+              >(<span data-js="left-characters-question">270 </span> charackters
+              left)</small
+            ></label
+          >
           <textarea
             name="question__form"
+            data-js="create-question"
             id="question__form"
             cols="30"
             rows="7"
@@ -28,9 +35,15 @@
           ></textarea>
         </div>
         <div class="form">
-          <label for="answer__form"></label>
+          <label for="answer__form"
+            ><small class="create__headline--small"
+              >(<span data-js="left-characters-answer">520 </span> charackters
+              left)</small
+            ></label
+          >
           <textarea
             name="answer__form"
+            data-js="create-answer"
             id="answer__form"
             cols="30"
             rows="7"

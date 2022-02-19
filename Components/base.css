@@ -10,6 +10,8 @@ body {
   background-color: beige;
   box-shadow: 6px 6px 9px rosybrown;
   border-radius: 7px;
+  display: flex;
+  flex-direction: column;
   display: grid;
   grid-template-rows: 62px auto 48px;
   height: 100vh;
@@ -93,4 +95,12 @@ a:hover {
 
 .profile__name:hover {
   color: crimson;
+}
+
+.active {
+  color: rgb(57, 99, 57);
+}
+
+.hidden {
+  display: none;
 }

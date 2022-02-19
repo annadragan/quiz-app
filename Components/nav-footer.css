@@ -29,7 +29,7 @@ footer a {
   align-items: center;
 }
 
-.quiz__nav header__card {
+.quiz__nav .header__card {
   position: fixed;
   top: 0;
 }
