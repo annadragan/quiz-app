@@ -12,6 +12,7 @@ textarea {
   box-shadow: 6px 6px 9px rosybrown;
   border-radius: 7px;
   border-color: coral;
+  width: 80%;
 }
 
 ::placeholder {
@@ -29,5 +30,5 @@ input {
   border-radius: 7px;
   display: block;
   margin: 0 auto;
-  width: 27%;
+  width: 70%;
 }

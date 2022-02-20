@@ -1,15 +1,15 @@
 // console.log('Hello word');
 
 /* Navigation*/
-const buttonHome = document.querySelector('[data-nav=home]');
-const buttonBookmarks = document.querySelector('[data-nav=bookmarks]');
-const buttonCreate = document.querySelector('[data-nav=create]');
-const buttonProfile = document.querySelector('[data-nav=profile]');
+const buttonHome = document.querySelector('[data-nav="home"]');
+const buttonBookmarks = document.querySelector('[data-nav="bookmarks"]');
+const buttonCreate = document.querySelector('[data-nav="create"]');
+const buttonProfile = document.querySelector('[data-nav="profile"]');
 
-const pageHome = document.querySelector('[data-page=home]');
-const pageBookmarks = document.querySelector('[data-page=bookmarks]');
-const pageCreate = document.querySelector('[data-page=create]');
-const pageProfile = document.querySelector('[data-page=profile]');
+const pageHome = document.querySelector('[data-page="home"]');
+const pageBookmarks = document.querySelector('[data-page="bookmarks"]');
+const pageCreate = document.querySelector('[data-page="create"]');
+const pageProfile = document.querySelector('[data-page="profile"]');
 
 buttonHome.addEventListener('click', () => {
   pageHome.classList.remove('hidden');
@@ -95,12 +95,27 @@ const leftCharactersAnswer = document.querySelector(
 );
 
 createQuestion.addEventListener('input', () => {
-  const questionLength = createQuestion.value.length;
-  const maxQuestionLength = createQuestion.maxLength;
-  leftCharactersQuestion.innerText = maxQuestionLength - questionLength;
+  const questionTextLength = createQuestion.value.length;
+  const maxQuestionTextLength = createQuestion.maxLength;
+  leftCharactersQuestion.innerText = maxQuestionTextLength - questionTextLength;
 });
 
 createAnswer.addEventListener('input', () => {
   leftCharactersAnswer.innerText =
     createAnswer.maxLength - createAnswer.value.length;
+});
+
+/* Logout Alert - functioniert nicht*/
+const loginButton = document.querySelector('[data-js="logout-button"]');
+let userLoggedOut = true;
+loginButton.addEventListener('click', () => {
+  if (userLoggedOut) {
+    alert('You are now logged in!');
+    loginButton.textContent = 'Logout';
+    userLoggedOut = false;
+  } else {
+    alert('You are now logged out');
+    loginButton.textContent = 'Login';
+    userLoggedOut = true;
+  }
 });

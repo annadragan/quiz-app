@@ -19,34 +19,32 @@
     <main class="scrolling" data-page="create">
       <form action="" class="form__container">
         <div class="form">
-          <label for="question__form"
+          <label for="question__form" id="leftChar"
             ><small class="create__headline--small"
-              >(<span data-js="left-characters-question">270 </span> charackters
-              left)</small
+              >(<span data-js="left-characters-question">150 </span> charackters
+              remaining)</small
             ></label
           >
           <textarea
             name="question__form"
             data-js="create-question"
             id="question__form"
-            cols="30"
-            rows="7"
+            rows="6"
             placeholder="What is your question?"
           ></textarea>
         </div>
         <div class="form">
           <label for="answer__form"
             ><small class="create__headline--small"
-              >(<span data-js="left-characters-answer">520 </span> charackters
-              left)</small
+              >(<span data-js="left-characters-answer">350 </span> charackters
+              remaining)</small
             ></label
           >
           <textarea
             name="answer__form"
             data-js="create-answer"
             id="answer__form"
-            cols="30"
-            rows="7"
+            rows="8"
             placeholder="The answer is..."
           ></textarea>
         </div>
@@ -60,7 +58,7 @@
           />
         </div>
         <div class="form__submit__button--container">
-          <button class="form__submit__button">Submit</button>
+          <button type="submit" class="form__submit__button">Submit</button>
         </div>
       </form>
     </main>
