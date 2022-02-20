@@ -13,305 +13,307 @@
     <script defer type="module" src="./index.js"></script>
   </head>
   <body>
-    <div class="scrolling" >
-    <main data-page="home" class="margin__top">
-      <div class="quiz__nav header__card">
-      <h1>Quiz-App</h1>
-    </div>
-      <section class="question__cards__set">
-        <!-- card 1 -->
-        <div class="question__card" data-js="card">
-          <div class="question__card__title">
-            <h2>Question1</h2>
-            <button type="button" class="question__card__title-bookmark">
-              <i data-card="bookmark" class="fas fa-bookmark fa-4x"></i>
+    <div class="scrolling">
+      <main data-page="home" class="margin__top">
+        <div class="quiz__nav header__card">
+          <h1>Quiz-App</h1>
+        </div>
+        <section class="question__cards__set">
+          <!-- card 1 -->
+          <div class="question__card" data-js="card">
+            <div class="question__card__title">
+              <h2>Question1</h2>
+              <button type="button" class="question__card__title-bookmark">
+                <i data-card="bookmark" class="fas fa-bookmark fa-4x"></i>
+              </button>
+            </div>
+            <div class="question__card__content">
+              <h3>What type of fish is Destiny in 'Finding Dory'?</h3>
+            </div>
+            <button
+              data-button="showAnswer"
+              class="question__card__answer__button"
+            >
+              <span class="hidden" data-span="hideAnswer">Hide &nbsp</span
+              ><span data-js="show">Show &nbsp</span> Answer
             </button>
+            <p class="hidden" data-js="answerText">Whale Shark</p>
+            <ul class="question__card__tags" role="list">
+              <li class="question__card__tag"><a href="#">#Category1</a></li>
+              <li class="question__card__tag"><a href="#">#Category2</a></li>
+              <li class="question__card__tag"><a href="#">#Category3</a></li>
+              <li class="question__card__tag"><a href="#">#Category4</a></li>
+            </ul>
           </div>
-          <div class="question__card__content">
-            <h3>What type of fish is Destiny in 'Finding Dory'?</h3>
-          </div>
-          <button
-            data-button="showAnswer"
-            class="question__card__answer__button"
-          >
-            <span class="hidden" data-span="hideAnswer">Hide &nbsp</span
-            ><span data-js="show">Show &nbsp</span> Answer
-          </button>
-          <p class="hidden" data-js="answerText">Whale Shark</p>
-          <ul class="question__card__tags" role="list">
-            <li class="question__card__tag"><a href="#">#Category1</a></li>
-            <li class="question__card__tag"><a href="#">#Category2</a></li>
-            <li class="question__card__tag"><a href="#">#Category3</a></li>
-            <li class="question__card__tag"><a href="#">#Category4</a></li>
-          </ul>
-        </div>
-        <!-- card 2 -->
-        <div class="question__card" data-js="card">
-          <div class="question__card__title">
-            <h2>Question2</h2>
-            <button type="button" class="question__card__title-bookmark">
-              <i data-card="bookmark" class="fas fa-bookmark fa-4x"></i>
+          <!-- card 2 -->
+          <div class="question__card" data-js="card">
+            <div class="question__card__title">
+              <h2>Question2</h2>
+              <button type="button" class="question__card__title-bookmark">
+                <i data-card="bookmark" class="fas fa-bookmark fa-4x"></i>
+              </button>
+            </div>
+            <div class="question__card__content">
+              <h3>Where does the name Piranha come from?</h3>
+            </div>
+            <button
+              data-button="showAnswer"
+              class="question__card__answer__button"
+            >
+              <span class="hidden" data-span="hideAnswer">Hide &nbsp</span
+              ><span data-js="show">Show &nbsp</span> Answer
             </button>
+            <p class="hidden" data-js="answerText">
+              Brazil, its translation means scissors.
+            </p>
+            <ul class="question__card__tags" role="list">
+              <li class="question__card__tag"><a href="#">#Category1</a></li>
+              <li class="question__card__tag"><a href="#">#Category2</a></li>
+              <li class="question__card__tag"><a href="#">#Category3</a></li>
+              <li class="question__card__tag"><a href="#">#Category4</a></li>
+            </ul>
           </div>
-          <div class="question__card__content">
-            <h3>Where does the name Piranha come from?</h3>
-          </div>
-          <button
-            data-button="showAnswer"
-            class="question__card__answer__button"
-          >
-            <span class="hidden" data-span="hideAnswer">Hide &nbsp</span
-            ><span data-js="show">Show &nbsp</span> Answer
-          </button>
-          <p class="hidden" data-js="answerText">
-            Brazil, its translation means scissors.
-          </p>
-          <ul class="question__card__tags" role="list">
-            <li class="question__card__tag"><a href="#">#Category1</a></li>
-            <li class="question__card__tag"><a href="#">#Category2</a></li>
-            <li class="question__card__tag"><a href="#">#Category3</a></li>
-            <li class="question__card__tag"><a href="#">#Category4</a></li>
-          </ul>
-        </div>
-        <!-- card 3 -->
-        <div class="question__card" data-js="card">
-          <div class="question__card__title">
-            <h2>Question3</h2>
-            <button type="button" class="question__card__title-bookmark">
-              <i data-card="bookmark" class="fas fa-bookmark fa-4x"></i>
+          <!-- card 3 -->
+          <div class="question__card" data-js="card">
+            <div class="question__card__title">
+              <h2>Question3</h2>
+              <button type="button" class="question__card__title-bookmark">
+                <i data-card="bookmark" class="fas fa-bookmark fa-4x"></i>
+              </button>
+            </div>
+            <div class="question__card__content">
+              <h3>What is the most toxic fish in the world?</h3>
+            </div>
+            <button
+              data-button="showAnswer"
+              class="question__card__answer__button"
+            >
+              <span class="hidden" data-span="hideAnswer">Hide &nbsp</span
+              ><span data-js="show">Show &nbsp</span> Answer
             </button>
+            <p class="hidden" data-js="answerText">
+              Stone Fish; its bite can cause paralysis, shock, and death.
+            </p>
+            <ul class="question__card__tags" role="list">
+              <li class="question__card__tag"><a href="#">#Category1</a></li>
+              <li class="question__card__tag"><a href="#">#Category2</a></li>
+              <li class="question__card__tag"><a href="#">#Category3</a></li>
+              <li class="question__card__tag"><a href="#">#Category4</a></li>
+            </ul>
           </div>
-          <div class="question__card__content">
-            <h3>What is the most toxic fish in the world?</h3>
-          </div>
-          <button
-            data-button="showAnswer"
-            class="question__card__answer__button"
-          >
-            <span class="hidden" data-span="hideAnswer">Hide &nbsp</span
-            ><span data-js="show">Show &nbsp</span> Answer
-          </button>
-          <p class="hidden" data-js="answerText">
-            Stone Fish; its bite can cause paralysis, shock, and death.
-          </p>
-          <ul class="question__card__tags" role="list">
-            <li class="question__card__tag"><a href="#">#Category1</a></li>
-            <li class="question__card__tag"><a href="#">#Category2</a></li>
-            <li class="question__card__tag"><a href="#">#Category3</a></li>
-            <li class="question__card__tag"><a href="#">#Category4</a></li>
-          </ul>
-        </div>
-        <!-- card 4 -->
-        <div class="question__card" data-js="card">
-          <div class="question__card__title">
-            <h2>Question4</h2>
-            <button type="button" class="question__card__title-bookmark">
-              <i data-card="bookmark" class="fas fa-bookmark fa-4x"></i>
+          <!-- card 4 -->
+          <div class="question__card" data-js="card">
+            <div class="question__card__title">
+              <h2>Question4</h2>
+              <button type="button" class="question__card__title-bookmark">
+                <i data-card="bookmark" class="fas fa-bookmark fa-4x"></i>
+              </button>
+            </div>
+            <div class="question__card__content">
+              <h3>How many teeth can a Shark have over its lifetime?</h3>
+            </div>
+            <button
+              data-button="showAnswer"
+              class="question__card__answer__button"
+            >
+              <span class="hidden" data-span="hideAnswer">Hide &nbsp</span
+              ><span data-js="show">Show &nbsp</span> Answer
             </button>
+            <p class="hidden" data-js="answerText">
+              50,000; each time one is lost, another grows.
+            </p>
+            <ul class="question__card__tags" role="list">
+              <li class="question__card__tag"><a href="#">#Category1</a></li>
+              <li class="question__card__tag"><a href="#">#Category2</a></li>
+              <li class="question__card__tag"><a href="#">#Category3</a></li>
+              <li class="question__card__tag"><a href="#">#Category4</a></li>
+            </ul>
           </div>
-          <div class="question__card__content">
-            <h3>How many teeth can a Shark have over its lifetime?</h3>
-          </div>
-          <button
-            data-button="showAnswer"
-            class="question__card__answer__button"
-          >
-            <span class="hidden" data-span="hideAnswer">Hide &nbsp</span
-            ><span data-js="show">Show &nbsp</span> Answer
-          </button>
-          <p class="hidden" data-js="answerText">
-            50,000; each time one is lost, another grows.
-          </p>
-          <ul class="question__card__tags" role="list">
-            <li class="question__card__tag"><a href="#">#Category1</a></li>
-            <li class="question__card__tag"><a href="#">#Category2</a></li>
-            <li class="question__card__tag"><a href="#">#Category3</a></li>
-            <li class="question__card__tag"><a href="#">#Category4</a></li>
-          </ul>
-        </div>
-      </section>
-      <!-- answer card -->
-      <section>
-        <div class="question__card answer__card" data-js="card">
-          <div class="question__card__title">
-            <h2>Question1: Answer</h2>
-            <button type="button" class="question__card__title-bookmark">
-              <i data-card="bookmark" class="fas fa-bookmark fa-4x"></i>
+        </section>
+        <!-- answer card -->
+        <section>
+          <div class="question__card answer__card" data-js="card">
+            <div class="question__card__title">
+              <h2>Question1: Answer</h2>
+              <button type="button" class="question__card__title-bookmark">
+                <i data-card="bookmark" class="fas fa-bookmark fa-4x"></i>
+              </button>
+            </div>
+            <div class="question__card__content">
+              <h3>How many tricks can the cleverest fish in the world do?</h3>
+            </div>
+            <button
+              data-button="showAnswer"
+              class="question__card__answer__button--hide"
+            >
+              <span class="hidden" data-js="show">Show &nbsp</span
+              ><span data-span="hideAnswer">Hide &nbsp</span> Answer
             </button>
+            <p data-js="answerText">
+              Answer:Guinness World Record Owner, 3-year old Calico Fantail
+              (aptly named Albert Einstein), can perform 6 tricks on demand.
+            </p>
+            <ul class="question__card__tags" role="list">
+              <li class="question__card__tag"><a href="#">#Category1</a></li>
+              <li class="question__card__tag"><a href="#">#Category2</a></li>
+              <li class="question__card__tag"><a href="#">#Category3</a></li>
+              <li class="question__card__tag"><a href="#">#Category4</a></li>
+            </ul>
           </div>
-          <div class="question__card__content">
-            <h3>How many tricks can the cleverest fish in the world do?</h3>
-          </div>
-          <button
-            data-button="showAnswer"
-            class="question__card__answer__button--hide"
-          >
-            <span class="hidden" data-js="show">Show &nbsp</span
-            ><span data-span="hideAnswer">Hide &nbsp</span> Answer
-          </button>
-          <p data-js="answerText">
-            Answer:Guinness World Record Owner, 3-year old Calico Fantail (aptly
-            named Albert Einstein), can perform 6 tricks on demand.
-          </p>
-          <ul class="question__card__tags" role="list">
-            <li class="question__card__tag"><a href="#">#Category1</a></li>
-            <li class="question__card__tag"><a href="#">#Category2</a></li>
-            <li class="question__card__tag"><a href="#">#Category3</a></li>
-            <li class="question__card__tag"><a href="#">#Category4</a></li>
-          </ul>
+        </section>
+      </main>
+      <main data-page="bookmarks" class="hidden margin__top">
+        <div class="quiz__nav header__card">
+          <h1>Bookmarks</h1>
         </div>
-      </section>
-    </main>
-    </main>
-    <main data-page="bookmarks" class="hidden margin__top">
-      <div class="quiz__nav header__card">
-      <h1>Bookmarks</h1></div>
-      <section class="question__cards__set">
-        <div class="question__card" data-js="card">
-          <div class="question__card__title">
-            <h2>Question1</h2>
-            <button type="button" class="question__card__title-bookmark">
-              <i data-card="bookmark" class="fas fa-bookmark fa-4x"></i>
+        <section class="question__cards__set">
+          <div class="question__card" data-js="card">
+            <div class="question__card__title">
+              <h2>Question1</h2>
+              <button type="button" class="question__card__title-bookmark">
+                <i data-card="bookmark" class="fas fa-bookmark fa-4x"></i>
+              </button>
+            </div>
+            <div class="question__card__content">
+              <h3>How many species of fish live in Antarctica?</h3>
+            </div>
+            <button
+              data-button="showAnswer"
+              class="question__card__answer__button"
+            >
+              <span class="hidden" data-span="hideAnswer">Hide &nbsp</span
+              ><span data-js="show">Show &nbsp</span> Answer
             </button>
+            <p class="hidden" data-js="answerText">
+              Around 200 types of fish live here in freezing or below-freezing
+              temperatures.
+            </p>
+            <ul class="question__card__tags" role="list">
+              <li class="question__card__tag"><a href="#">#Category1</a></li>
+              <li class="question__card__tag"><a href="#">#Category2</a></li>
+              <li class="question__card__tag"><a href="#">#Category3</a></li>
+              <li class="question__card__tag"><a href="#">#Category4</a></li>
+            </ul>
           </div>
-          <div class="question__card__content">
-            <h3>How many species of fish live in Antarctica?</h3>
-          </div>
-          <button
-            data-button="showAnswer"
-            class="question__card__answer__button"
-          >
-            <span class="hidden" data-span="hideAnswer">Hide &nbsp</span
-            ><span data-js="show">Show &nbsp</span> Answer
-          </button>
-          <p class="hidden" data-js="answerText">
-            Around 200 types of fish live here in freezing or below-freezing
-            temperatures.
-          </p>
-          <ul class="question__card__tags" role="list">
-            <li class="question__card__tag"><a href="#">#Category1</a></li>
-            <li class="question__card__tag"><a href="#">#Category2</a></li>
-            <li class="question__card__tag"><a href="#">#Category3</a></li>
-            <li class="question__card__tag"><a href="#">#Category4</a></li>
-          </ul>
-        </div>
-        <div class="question__card" data-js="card">
-          <div class="question__card__title">
-            <h2>Question2</h2>
-            <button type="button" class="question__card__title-bookmark">
-              <i data-card="bookmark" class="fas fa-bookmark fa-4x"></i>
+          <div class="question__card" data-js="card">
+            <div class="question__card__title">
+              <h2>Question2</h2>
+              <button type="button" class="question__card__title-bookmark">
+                <i data-card="bookmark" class="fas fa-bookmark fa-4x"></i>
+              </button>
+            </div>
+            <div class="question__card__content">
+              <h3>
+                How long is it thought that the memory of a goldfish lasts?
+              </h3>
+            </div>
+            <button
+              data-button="showAnswer"
+              class="question__card__answer__button"
+            >
+              <span class="hidden" data-span="hideAnswer">Hide &nbsp</span
+              ><span data-js="show">Show &nbsp</span> Answer
             </button>
+            <p class="hidden" data-js="answerText">5 months.</p>
+            <ul class="question__card__tags" role="list">
+              <li class="question__card__tag"><a href="#">#Category1</a></li>
+              <li class="question__card__tag"><a href="#">#Category2</a></li>
+              <li class="question__card__tag"><a href="#">#Category3</a></li>
+              <li class="question__card__tag"><a href="#">#Category4</a></li>
+            </ul>
           </div>
-          <div class="question__card__content">
-            <h3>How long is it thought that the memory of a goldfish lasts?</h3>
+        </section>
+      </main>
+      <main data-page="create" class="hidden margin__top">
+        <div class="quiz__nav header__card" class="create__header__title">
+          <h1>Create</h1>
+        </div>
+        <form action="" class="form__container">
+          <div class="form">
+            <label for="question__form" id="leftChar"
+              ><small class="create__headline--small"
+                >(<span data-js="left-characters-question">150 </span>
+                charackters remaining)</small
+              ></label
+            >
+            <textarea
+              name="question__form"
+              data-js="create-question"
+              id="question__form"
+              rows="6"
+              placeholder="What is your question?"
+            ></textarea>
           </div>
-          <button
-            data-button="showAnswer"
-            class="question__card__answer__button"
-          >
-            <span class="hidden" data-span="hideAnswer">Hide &nbsp</span
-            ><span data-js="show">Show &nbsp</span> Answer
-          </button>
-          <p class="hidden" data-js="answerText">5 months.</p>
-          <ul class="question__card__tags" role="list">
-            <li class="question__card__tag"><a href="#">#Category1</a></li>
-            <li class="question__card__tag"><a href="#">#Category2</a></li>
-            <li class="question__card__tag"><a href="#">#Category3</a></li>
-            <li class="question__card__tag"><a href="#">#Category4</a></li>
-          </ul>
+          <div class="form">
+            <label for="answer__form"
+              ><small class="create__headline--small"
+                >(<span data-js="left-characters-answer">350 </span> charackters
+                remaining)</small
+              ></label
+            >
+            <textarea
+              name="answer__form"
+              data-js="create-answer"
+              id="answer__form"
+              rows="8"
+              placeholder="The answer is..."
+            ></textarea>
+          </div>
+          <div class="tags__form">
+            <label for="tags__input"></label>
+            <input
+              type="text"
+              name="tags__input"
+              id="tags__input"
+              placeholder="#Tag 1, #Tag 2, #Tag 3,..."
+            />
+          </div>
+          <div class="form__submit__button--container">
+            <button type="submit" class="form__submit__button">Submit</button>
+          </div>
+        </form>
+      </main>
+      <main data-page="profile" class="hidden margin__top">
+        <div class="quiz__nav header__card">
+          <h1>Profile</h1>
         </div>
-      </section>
-    </main>
-    <main data-page="create" class="hidden margin__top">
-      <div class="quiz__nav header__card" class="create__header__title">
-      <h1>
-        Create
-      </h1></div>
-      <form action="" class="form__container">
-        <div class="form">
-          <label for="question__form" id="leftChar"
-            ><small class="create__headline--small"
-              >(<span data-js="left-characters-question">150 </span> charackters
-              remaining)</small
-            ></label
-          >
-          <textarea
-            name="question__form"
-            data-js="create-question"
-            id="question__form"
-            rows="6"
-            placeholder="What is your question?"
-          ></textarea>
-        </div>
-        <div class="form">
-          <label for="answer__form"
-            ><small class="create__headline--small"
-              >(<span data-js="left-characters-answer">350 </span> charackters
-              remaining)</small
-            ></label
-          >
-          <textarea
-            name="answer__form"
-            data-js="create-answer"
-            id="answer__form"
-            rows="8"
-            placeholder="The answer is..."
-          ></textarea>
-        </div>
-        <div class="tags__form">
-          <label for="tags__input"></label>
-          <input
-            type="text"
-            name="tags__input"
-            id="tags__input"
-            placeholder="#Tag 1, #Tag 2, #Tag 3,..."
+        <figure class="profile__info">
+          <img
+            class="profile__photo"
+            src="https://source.unsplash.com/200x200/?girl"
+            alt="Pippi Longstocking"
+            width="200px"
+            height="200px"
+            class="header__card__image"
           />
+          <figcaption class="profile__name">
+            <h2>Pippi Longstocking</h2>
+          </figcaption>
+        </figure>
+        <p>
+          Pippi is red-haired, freckled, unconventional and superhumanly strong
+          – able to lift her horse one-handed. She is playful and unpredictable.
+          She often makes fun of unreasonable adults, especially if they are
+          pompous and condescending. Her anger comes out in extreme cases, such
+          as when a man mistreats his horse.
+        </p>
+        <ul class="profile__skills">
+          <li>superhuman strength</li>
+          <li>super speed</li>
+          <li>superhuman breath</li>
+          <li>power of flight</li>
+        </ul>
+        <div class="profile__logout__button--container">
+          <button
+            data-js="logout-button"
+            onclick="this.style.background = 'pink'"
+            class="profile__logout__button"
+          >
+            Logout
+          </button>
         </div>
-        <div class="form__submit__button--container">
-          <button type="submit" class="form__submit__button">Submit</button>
-        </div>
-      </form>
-    </main>
-    <main data-page="profile" class="hidden margin__top">
-      <div class="quiz__nav header__card">
-      <h1>Profile</h1></div>
-      <figure class="profile__info">
-        <img
-          class="profile__photo"
-          src="https://source.unsplash.com/200x200/?girl"
-          alt="Pippi Longstocking"
-          width="200px"
-          height="200px"
-          class="header__card__image"
-        />
-        <figcaption class="profile__name">
-          <h2>Pippi Longstocking</h2>
-        </figcaption>
-      </figure>
-      <p>
-        Pippi is red-haired, freckled, unconventional and superhumanly strong –
-        able to lift her horse one-handed. She is playful and unpredictable. She
-        often makes fun of unreasonable adults, especially if they are pompous
-        and condescending. Her anger comes out in extreme cases, such as when a
-        man mistreats his horse.
-      </p>
-      <ul class="profile__skills">
-        <li>superhuman strength</li>
-        <li>super speed</li>
-        <li>superhuman breath</li>
-        <li>power of flight</li>
-      </ul>
-      <div class="profile__logout__button--container">
-        <button
-          data-js="logout-button"
-          onclick="this.style.background = 'pink'"
-          class="profile__logout__button"
-        >
-          Logout
-        </button>
-      </div>
-    </main>
-  </div>
+      </main>
+    </div>
     <!-- Navigation -->
     <footer class="quiz__nav__footer">
       <div class="quiz__nav">
