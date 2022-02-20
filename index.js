@@ -113,7 +113,7 @@ createAnswer.addEventListener('input', () => {
     createAnswer.maxLength - createAnswer.value.length;
 });
 
-/* Logout Alert - functioniert nicht*/
+/* Logout Alert*/
 const loginButton = document.querySelector('[data-js="logout-button"]');
 let userLoggedOut = true;
 loginButton.addEventListener('click', () => {

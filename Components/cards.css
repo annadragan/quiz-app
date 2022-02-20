@@ -3,6 +3,11 @@
   background-image: url(../image/hasan-almasi-o_JU7aQCHPQ-unsplash.jpg);
   background-position: center;
   background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 .question__card {
