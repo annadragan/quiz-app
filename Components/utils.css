@@ -1,3 +1,7 @@
 .margin__top {
   margin-top: 96px;
 }
+
+.hidden {
+  display: none;
+}
