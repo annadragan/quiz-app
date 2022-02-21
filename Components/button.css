@@ -6,7 +6,7 @@
   border: 2px solid palevioletred;
   font-size: 1.2rem;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: center;
   cursor: pointer;
   color: midnightblue;
@@ -24,7 +24,7 @@
   border-radius: 10px;
   border: 2px solid azure;
   font-size: 1.2rem;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   cursor: pointer;
   color: midnightblue;
   font-weight: 400;
@@ -33,12 +33,16 @@
   background-color: blanchedalmond;
 }
 
+.profile__logout__button--container {
+  display: grid;
+}
+
 .profile__logout__button {
   margin: 20px 40px;
   padding: 10px;
-  background-color: lightpink;
+  background-color: azure;
   border-radius: 10px;
-  border: 2px solid azure;
+  border: 2px solid palevioletred;
   font-size: 1.2rem;
   cursor: pointer;
   color: midnightblue;
@@ -49,12 +53,18 @@
   background-color: blanchedalmond;
 }
 
+.form__submit__button--container {
+  display: grid;
+  /* display: flex;
+  justify-content: center; */
+}
+
 .form__submit__button {
-  margin: 20px 40px;
+  margin: 5% 40px;
   padding: 10px;
-  background-color: lightpink;
+  background-color: blanchedalmond;
   border-radius: 10px;
-  border: 2px solid azure;
+  border: 2px solid palevioletred;
   font-size: 1.2rem;
   cursor: pointer;
   color: midnightblue;
@@ -62,5 +72,5 @@
 }
 
 .form__submit__button:hover {
-  background-color: blanchedalmond;
+  background-color: azure;
 }

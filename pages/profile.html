@@ -10,10 +10,11 @@
       src="https://kit.fontawesome.com/6201e0ed90.js"
       crossorigin="anonymous"
     ></script>
+    <script defer type="module" src="../index.js"></script>
   </head>
   <body>
     <header class="quiz__nav header__card"><h1>Profile</h1></header>
-    <main>
+    <main class="scrolling" data-page="profile">
       <figure class="profile__info">
         <img
           class="profile__photo"
@@ -40,20 +41,31 @@
         <li>superhuman breath</li>
         <li>power of flight</li>
       </ul>
-      <button class="profile__logout__button">Logout</button>
+      <div class="profile__logout__button--container">
+        <button
+          data-js="logout-button"
+          onclick="this.style.background = 'pink'"
+          class="profile__logout__button"
+        >
+          Logout
+        </button>
+      </div>
     </main>
     <footer class="quiz__nav__footer">
       <div class="quiz__nav">
-        <a href="../index.html" class="footer__icon"
+        <a href="../index.html" class="footer__icon" data-nav="home"
           ><i class="fas fa-home fa-2x"></i
         ></a>
-        <a href="../pages/bookmarks.html" class="footer__icon"
+        <a
+          href="../pages/bookmarks.html"
+          class="footer__icon"
+          data-nav="bookmarks"
           ><i class="fa fa-bookmark-o fa-2x" aria-hidden="true"></i
         ></a>
-        <a href="../pages/create.html" class="footer__icon"
+        <a href="../pages/create.html" class="footer__icon" data-nav="create"
           ><i class="fas fa-bookmark fa-2x"></i
         ></a>
-        <a href="../pages/profile.html" class="footer__icon"
+        <a href="../pages/profile.html" class="footer__icon" data-nav="profile"
           ><i class="fas fa-thumbtack fa-2x"></i
         ></a>
       </div>

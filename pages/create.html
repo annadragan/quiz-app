@@ -9,58 +9,74 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/style.css" />
+    <script defer type="module" src="../index.js"></script>
     <title>Create</title>
   </head>
   <body>
     <header class="quiz__nav header__card">
       <h1 class="create__header__title">Create</h1>
     </header>
-    <main>
+    <main class="scrolling" data-page="create">
       <form action="" class="form__container">
         <div class="form">
-          <label for="question__form"></label>
+          <label for="question__form" id="leftChar"
+            ><small class="create__headline--small"
+              >(<span data-js="left-characters-question">150 </span> charackters
+              remaining)</small
+            ></label
+          >
           <textarea
             name="question__form"
+            data-js="create-question"
             id="question__form"
-            cols="30"
-            rows="7"
+            rows="6"
             placeholder="What is your question?"
           ></textarea>
         </div>
         <div class="form">
-          <label for="answer__form"></label>
+          <label for="answer__form"
+            ><small class="create__headline--small"
+              >(<span data-js="left-characters-answer">350 </span> charackters
+              remaining)</small
+            ></label
+          >
           <textarea
             name="answer__form"
+            data-js="create-answer"
             id="answer__form"
-            cols="30"
-            rows="7"
+            rows="8"
             placeholder="The answer is..."
           ></textarea>
         </div>
-        <div class="form__tags">
-          <label for="tags__form"></label>
+        <div class="tags__form">
+          <label for="tags__input"></label>
           <input
             type="text"
-            name="tags__form"
-            id="tags__form"
+            name="tags__input"
+            id="tags__input"
             placeholder="#Tag 1, #Tag 2, #Tag 3,..."
           />
         </div>
-        <button class="form__submit__button">Submit</button>
+        <div class="form__submit__button--container">
+          <button type="submit" class="form__submit__button">Submit</button>
+        </div>
       </form>
     </main>
     <footer class="quiz__nav__footer">
       <div class="quiz__nav">
-        <a href="../index.html" class="footer__icon"
+        <a href="../index.html" class="footer__icon" data-nav="home"
           ><i class="fas fa-home fa-2x"></i
         ></a>
-        <a href="../pages/bookmarks.html" class="footer__icon"
+        <a
+          href="../pages/bookmarks.html"
+          class="footer__icon"
+          data-nav="bookmarks"
           ><i class="fa fa-bookmark-o fa-2x" aria-hidden="true"></i
         ></a>
-        <a href="../pages/create.html" class="footer__icon"
+        <a href="../pages/create.html" class="footer__icon" data-nav="create"
           ><i class="fas fa-bookmark fa-2x"></i
         ></a>
-        <a href="../pages/profile.html" class="footer__icon"
+        <a href="../pages/profile.html" class="footer__icon" data-nav="profile"
           ><i class="fas fa-thumbtack fa-2x"></i
         ></a>
       </div>

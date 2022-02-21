@@ -11,12 +11,8 @@ body {
   box-shadow: 6px 6px 9px rosybrown;
   border-radius: 7px;
   display: grid;
-  grid-template-rows: 62px auto 48px;
+  grid-template-rows: auto 48px;
   height: 100vh;
-}
-
-main {
-  overflow-y: auto;
 }
 
 h1 {
@@ -75,6 +71,10 @@ a:hover {
   color: blanchedalmond;
 }
 
+.scrolling {
+  overflow-y: auto;
+}
+
 .profile__info {
   display: grid;
   grid-auto-flow: column;
@@ -95,6 +95,10 @@ a:hover {
   color: crimson;
 }
 
-/* .active {
-  background-color: coral;
-} */
+.active {
+  color: rgb(57, 99, 57);
+}
+
+.hidden {
+  display: none;
+}
